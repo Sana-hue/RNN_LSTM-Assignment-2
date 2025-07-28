@@ -48,10 +48,13 @@ TRAINING STABILITY-- If loss and accuracy curves are smooth and steadily improvi
 
 TASK 8
 1. What are the challenges in training seq-to-seq models?
+
 Ans.Training seq-to-seq is challenging due to issues like long term dependancies handling,data sacrcity and large vocab size..
 
 2. What does a bad transition look like?
+
 Ans. A bad translation might have incorrect meaning ,grammatical error or missing words and other...it often occurs due to limited training data, lack of attention mechanism or poor generalization during inference..
 
 3.How can the model be improved further?
+
 Ans. The model can be improved by adding an attention mechanism ,using pre dfined embeddings or switching to transformer based model
