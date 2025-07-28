@@ -41,12 +41,14 @@ h1, h2 from encoder as hidden state and h1 termed as vector whereas h2 is d2 and
 h2 is the final hidden state passed to decoder and words generated step by step “Guten”, “Nicht” ,<eos> as output in decoder….in german…..
 
 
-TASK 7 B..
+TASK 7 B
+
+
 OVERFITTING-- This model performs well on training data but not well on test data while loss keeps decreasing, but validation loss starts increasing after a few epochs..
 UNDERFITTING-- The model performs well poorly on both training and validation datasets..
 TRAINING STABILITY-- If loss and accuracy curves are smooth and steadily improving ,the training is considered stable..
 
-TASK 8
+TASK 8:-
 1. What are the challenges in training seq-to-seq models?
 
 Ans.Training seq-to-seq is challenging due to issues like long term dependancies handling,data sacrcity and large vocab size..
